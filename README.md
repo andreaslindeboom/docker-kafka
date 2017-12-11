@@ -1,6 +1,7 @@
 Kafka in Docker
 ===
 **Note 1: this was forked from [spotify/kafka](https://github.com/spotify/docker-kafka). The only changes are that the image is updated to use recent Kafka/Zookeeper versions, that the Zookeeper version can now be specified, and that the kafkaproxy is not included.**
+
 **Note 2: it is NOT recommended to run this in production, I forked and updated this for testing purposes only. Depend on this in a production system at your own risk.**
 
 This repository provides everything you need to run Kafka in Docker.
