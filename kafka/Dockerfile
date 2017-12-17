@@ -8,6 +8,7 @@ ENV SCALA_VERSION 2.11
 ENV KAFKA_VERSION 1.0.0
 ENV ZOOKEEPER_VERSION 3.4.5+dfsg-2+deb8u2
 ENV KAFKA_HOME /opt/kafka_"$SCALA_VERSION"-"$KAFKA_VERSION"
+ENV PATH "$PATH":"$KAFKA_HOME"/bin
 
 # Install Kafka, Zookeeper and other needed things
 RUN apt-get update && \
